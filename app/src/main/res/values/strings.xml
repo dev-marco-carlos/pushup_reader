@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotificationReader</string>
+    <string name="app_title">Notification Reader</string>
+
+    <!-- Status -->
+    <string name="status_checking">Status: Verificando…</string>
+    <string name="status_active">Status: ATIVO - Capturando notificacoes</string>
+    <string name="status_inactive">Status: INATIVO - Permissao necessaria</string>
+
+    <!-- Buttons -->
+    <string name="btn_grant_permission">Conceder Permissao</string>
+    <string name="btn_clear">Limpar</string>
+    <string name="btn_export">Exportar TXT</string>
+    <string name="permission_granted">Permissao Concedida</string>
+
+    <!-- Notification list -->
+    <string name="captured_notifications_title">Notificacoes Capturadas:</string>
+    <string name="captured_notifications_count">Notificacoes Capturadas: %d</string>
+    <string name="no_notifications">Nenhuma notificacao salva ainda.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_clear_title">Limpar notificacoes</string>
+    <string name="dialog_clear_message">Deseja apagar todas as notificacoes salvas?</string>
+    <string name="dialog_permission_title">Permissao de Notificacoes</string>
+    <string name="dialog_permission_message">Para capturar notificacoes, voce precisa ativar o acesso a notificacoes nas configuracoes do sistema.\n\nEncontre \'NotificationReader\' na lista e ative-o.</string>
+    <string name="open_settings">Abrir Configuracoes</string>
+
+    <!-- Export -->
+    <string name="export_success_title">Exportacao concluida</string>
+    <string name="export_success_message">Arquivo exportado em:\n%s</string>
+    <string name="export_error">Erro ao exportar: %s</string>
+
+    <!-- General -->
+    <string name="yes">Sim</string>
+    <string name="cancel">Cancelar</string>
+    <string name="permission_already_granted">Permissao ja concedida!</string>
+    <string name="notifications_cleared">Notificacoes apagadas</string>
+</resources>
